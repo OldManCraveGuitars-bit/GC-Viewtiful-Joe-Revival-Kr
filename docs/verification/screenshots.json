@@ -1,0 +1,61 @@
+{
+  "images": [
+    {
+      "file": "docs/images/title.png",
+      "label": "타이틀과 메인 메뉴",
+      "sha256": "c91234370a343fdd71bf5d2c86a04d9bca197b29df147ed12501cbdf89c52209",
+      "capture_iso_sha256": "94f20dd50f0323cca62e6e15f97796803611be5f9258e03860ea874c49863b3c",
+      "historical_capture_reused": false,
+      "visually_reviewed": true
+    },
+    {
+      "file": "docs/images/opening.png",
+      "label": "오프닝 자막",
+      "sha256": "eb45c0763c76709123fd8a5edabf1b3c2ee5d0260964a9c2b4cff99bf2b20386",
+      "capture_iso_sha256": "94f20dd50f0323cca62e6e15f97796803611be5f9258e03860ea874c49863b3c",
+      "historical_capture_reused": false,
+      "visually_reviewed": true
+    },
+    {
+      "file": "docs/images/dialogue.png",
+      "label": "일본어 대사 한국어 표시",
+      "sha256": "49fdb6e624a623ad89f2b86b9f26b69f9fd289a549d379babb9d620367f3adb9",
+      "capture_iso_sha256": "94f20dd50f0323cca62e6e15f97796803611be5f9258e03860ea874c49863b3c",
+      "historical_capture_reused": false,
+      "visually_reviewed": true
+    },
+    {
+      "file": "docs/images/story.png",
+      "label": "이야기 장면 대사",
+      "sha256": "d84c55aef98565a596c6412232da87cbf8624ef6a06bcb1b250d65e9dee40944",
+      "capture_iso_sha256": "94f20dd50f0323cca62e6e15f97796803611be5f9258e03860ea874c49863b3c",
+      "historical_capture_reused": false,
+      "visually_reviewed": true
+    },
+    {
+      "file": "docs/images/options.png",
+      "label": "설정 화면",
+      "sha256": "cd64b56485af45b6550cf9c6e3e3ab171cd04b0859ffaa7ba59212b4f6679686",
+      "capture_iso_sha256": "94f20dd50f0323cca62e6e15f97796803611be5f9258e03860ea874c49863b3c",
+      "historical_capture_reused": false,
+      "visually_reviewed": true
+    },
+    {
+      "file": "docs/images/music.png",
+      "label": "뮤직비디오 자막 검수",
+      "sha256": "727a2434dd4eabaeb842ca9324e1a6c8d79e04819b15b03eddfe35d83651b6db",
+      "capture_iso_sha256": "bae6059b55e3f8855175f8bc9e6ab0e0bb8166b10697a854b8a864c729b2e042",
+      "historical_capture_reused": true,
+      "visually_reviewed": true
+    },
+    {
+      "file": "docs/images/ending.png",
+      "label": "엔딩 한글화 표기 검수",
+      "sha256": "6b10ae61baf583c7c532ec04a00fff02ecfbe2ff948a6b3b9451798f56fba343",
+      "capture_iso_sha256": "bae6059b55e3f8855175f8bc9e6ab0e0bb8166b10697a854b8a864c729b2e042",
+      "historical_capture_reused": true,
+      "visually_reviewed": true
+    }
+  ],
+  "note": "Title/opening/dialogue/story/options were freshly captured from v0.8 output. Music/ending preserve their actual earlier capture hashes; unchanged movie/caption pixels and runtime code were verified through the completed data-equivalence audits."
+}

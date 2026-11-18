@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "version": "0.8",
+  "game_id": "GVFJ08",
+  "title": "뷰티풀죠 리바이벌",
+  "source": {
+    "size": 1459978240,
+    "sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480",
+    "region": "Japan",
+    "disc_id": "GVFJ08"
+  },
+  "target": {
+    "name": "Viewtiful-Joe-Revival-Kr-v0.8.iso",
+    "size": 1459978240,
+    "sha256": "94f20dd50f0323cca62e6e15f97796803611be5f9258e03860ea874c49863b3c"
+  },
+  "patch": {
+    "name": "patch.xdelta",
+    "size": 3664571,
+    "sha256": "9367876999700a965c5fd15c9429e2cee003b6aaea2d6317027feddb6ee7de36"
+  },
+  "decoder": {
+    "name": "xdelta3.exe",
+    "size": 340480,
+    "sha256": "2081fb24a7b8a89d068b58e7d9353647d5fc1512a68bb6a37f71fc60ca84d943"
+  },
+  "sidecar": {
+    "name": "title.xml",
+    "size": 194,
+    "sha256": "1564cdbdaf8a2d3c872466f5dcff659be4ec03a3b1f56912139b7e233f51a6f6"
+  }
+}

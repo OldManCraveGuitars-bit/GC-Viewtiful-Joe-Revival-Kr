@@ -1,0 +1,14 @@
+{
+  "game_id": "GVFJ08",
+  "source_iso": {
+    "size": 1459978240,
+    "sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480"
+  },
+  "patched_iso": {
+    "size": 1459978240,
+    "sha256": "94f20dd50f0323cca62e6e15f97796803611be5f9258e03860ea874c49863b3c"
+  },
+  "native_caption_cues": 95,
+  "video_reencoded": false,
+  "hardware_tested": false
+}
