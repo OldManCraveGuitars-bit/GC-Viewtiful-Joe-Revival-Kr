@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "version": "0.9",
+  "source_sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480",
+  "target_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981",
+  "target_size": 1459978240,
+  "output": "v09-result.iso",
+  "verify_only": false,
+  "output_verified_from_disk": true,
+  "sidecar_status": "created",
+  "source_overwritten": false,
+  "revision": "v0.9"
+}

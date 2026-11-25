@@ -1,14 +1,19 @@
 {
   "game_id": "GVFJ08",
+  "version": "0.9",
   "source_iso": {
     "size": 1459978240,
-    "sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480"
+    "sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480",
+    "region": "Japan",
+    "disc_id": "GVFJ08"
   },
   "patched_iso": {
+    "name": "Viewtiful-Joe-Revival-Kr-v0.9.iso",
     "size": 1459978240,
-    "sha256": "94f20dd50f0323cca62e6e15f97796803611be5f9258e03860ea874c49863b3c"
+    "sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
   },
   "native_caption_cues": 95,
   "video_reencoded": false,
-  "hardware_tested": false
+  "hardware_tested": false,
+  "hardware_test_waived_by_user": true
 }

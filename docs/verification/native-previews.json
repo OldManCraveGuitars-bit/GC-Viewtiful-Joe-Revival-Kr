@@ -1,0 +1,74 @@
+{
+  "images": [
+    {
+      "id": "files_data_st000.dat_008f2960_000",
+      "file": "docs/native-previews/files_data_st000.dat_008f2960_000.png",
+      "sha256": "c547785a7c8226a5a30f3a882cdbd693ea507f39fa03cd2d7eb702267f445858",
+      "kind": "native_texture_preview_not_gameplay_screenshot",
+      "installed_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    },
+    {
+      "id": "files_data_st004.dat_00007060_008",
+      "file": "docs/native-previews/files_data_st004.dat_00007060_008.png",
+      "sha256": "f3ebfd34ec7b8022f045b19d536df102c89ab84cf2b0aa1aad40145a076ec8b0",
+      "kind": "native_texture_preview_not_gameplay_screenshot",
+      "installed_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    },
+    {
+      "id": "files_data_st010.dat_0000fc60_000",
+      "file": "docs/native-previews/files_data_st010.dat_0000fc60_000.png",
+      "sha256": "ba75373fdaab54a537c60b1304d8d6763c145871e68f5a80d3ba6dbf688e4a90",
+      "kind": "native_texture_preview_not_gameplay_screenshot",
+      "installed_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    },
+    {
+      "id": "files_data_st010.dat_0000fc60_004",
+      "file": "docs/native-previews/files_data_st010.dat_0000fc60_004.png",
+      "sha256": "05c3a4fd4b5aa15e55184bca0dbb4637fda0d6dfc16e98000715ae02b00d4465",
+      "kind": "native_texture_preview_not_gameplay_screenshot",
+      "installed_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    },
+    {
+      "id": "files_data_st010.dat_0000fc60_005",
+      "file": "docs/native-previews/files_data_st010.dat_0000fc60_005.png",
+      "sha256": "24a32eecccd235a3b86658848d9546e86f0ecdef278422185348a248a94618b1",
+      "kind": "native_texture_preview_not_gameplay_screenshot",
+      "installed_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    },
+    {
+      "id": "files_data_st010.dat_0000fc60_007",
+      "file": "docs/native-previews/files_data_st010.dat_0000fc60_007.png",
+      "sha256": "d8acfe1e0645674aa7e14169a31d1c469659167bf331955cc521310cf8897b42",
+      "kind": "native_texture_preview_not_gameplay_screenshot",
+      "installed_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    },
+    {
+      "id": "files_data_st012.dat_003df6e0_000",
+      "file": "docs/native-previews/files_data_st012.dat_003df6e0_000.png",
+      "sha256": "68d080efcb11b32c72c4dec8af96735c6238b798b45820648805576d6c8f5c13",
+      "kind": "native_texture_preview_not_gameplay_screenshot",
+      "installed_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    },
+    {
+      "id": "files_data_st040.dat_0000f200_039",
+      "file": "docs/native-previews/files_data_st040.dat_0000f200_039.png",
+      "sha256": "89a6293f6d8b21428debe6fc79f21538f4ea5259f3f8e653231d3dcb046d3d44",
+      "kind": "native_texture_preview_not_gameplay_screenshot",
+      "installed_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    },
+    {
+      "id": "files_data_st042.dat_00636e20_000",
+      "file": "docs/native-previews/files_data_st042.dat_00636e20_000.png",
+      "sha256": "6e3d299789436f77c7a2e7703a17a4a8a9a27f74662a70b86e1fa1e99c09d418",
+      "kind": "native_texture_preview_not_gameplay_screenshot",
+      "installed_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    },
+    {
+      "id": "files_data_st042.dat_00643a40_000",
+      "file": "docs/native-previews/files_data_st042.dat_00643a40_000.png",
+      "sha256": "18d22d0b25030124bd7567bea4f37859e16060da43502c66229f71df8ddb453f",
+      "kind": "native_texture_preview_not_gameplay_screenshot",
+      "installed_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    }
+  ]
+}

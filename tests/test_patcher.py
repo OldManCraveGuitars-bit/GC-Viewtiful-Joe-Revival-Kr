@@ -46,7 +46,7 @@ class PatcherTests(unittest.TestCase):
             raise AssertionError(proc.stderr.decode('utf-8', 'replace'))
         (cls.resources / 'title.xml').write_text('<app><name>뷰티풀죠 리바이벌</name><coder>Capcom</coder><short_description>한국어 패치</short_description></app>', encoding='utf-8')
         entry = lambda p: dict(name=p.name, size=p.stat().st_size, sha256=patcher.digest(p))
-        cls.manifest = dict(schema=1, version='0.8', game_id='GVFJ08',
+        cls.manifest = dict(schema=1, version=patcher.VERSION, game_id='GVFJ08',
                             source=dict(size=len(data), sha256=hashlib.sha256(data).hexdigest()),
                             target=dict(size=len(cls.expected), sha256=hashlib.sha256(cls.expected).hexdigest()),
                             patch=entry(delta), decoder=entry(cls.resources / 'xdelta3.exe'),
@@ -67,6 +67,15 @@ class PatcherTests(unittest.TestCase):
 
     def assert_no_partial(self):
         self.assertFalse(list(self.folder.glob('.vjkr-*.partial')))
+
+    def test_wrong_manifest_version_rejected(self):
+        resources = self.folder / 'resources'
+        shutil.copytree(self.resources, resources)
+        manifest = json.loads((resources / 'manifest.json').read_text('utf-8'))
+        manifest['version'] = '0.8'
+        (resources / 'manifest.json').write_text(json.dumps(manifest), encoding='utf-8')
+        with self.assertRaises(patcher.PatchError):
+            patcher.check_resources(resources)
 
     def test_unicode_source_and_output_roundtrip(self):
         output = self.folder / '한글 완성본.iso'

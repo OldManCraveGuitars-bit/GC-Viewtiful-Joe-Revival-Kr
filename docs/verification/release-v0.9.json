@@ -1,0 +1,19 @@
+{
+  "version": "0.9",
+  "source_iso_sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480",
+  "target_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981",
+  "patch_sha256": "fb8df35d859322df3583a7e3fd1937d3db127cf002c87daa79b898823bdc5c69",
+  "exe_sha256": "ddd928b0d1a6b9a7e2a31c6368b348666d40918615ace5a4f305795461a8c28b",
+  "unit_tests": 11,
+  "real_frozen_iso_application_verified": true,
+  "approved_assets": 1443,
+  "replaced_occurrences": 4206,
+  "native_cues": 95,
+  "extra_image_assets": 10,
+  "extra_image_occurrences": 21,
+  "original_media_files_unchanged": 102,
+  "video_encoded": false,
+  "hardware_tested": false,
+  "hardware_test_waived_by_user": true,
+  "game_data_unchanged_from_verified_image_update": true
+}

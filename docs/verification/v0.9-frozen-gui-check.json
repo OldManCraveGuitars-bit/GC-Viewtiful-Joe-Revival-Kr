@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "version": "0.9",
+  "frozen": true,
+  "title": "뷰티풀죠 리바이벌 · 한국어 패처 v0.9",
+  "width": 820,
+  "height": 650,
+  "image_width": 256,
+  "source_and_output_fields": 2,
+  "start_enabled": true,
+  "cancel_initially_disabled": true,
+  "revision": "v0.9"
+}

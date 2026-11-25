@@ -1,0 +1,15 @@
+{
+  "baseline_iso_sha256": "94f20dd50f0323cca62e6e15f97796803611be5f9258e03860ea874c49863b3c",
+  "current_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981",
+  "changed_assets": 10,
+  "verified_occurrences": 21,
+  "changed_bytes": 185218,
+  "all_other_iso_bytes_identical": true,
+  "original_tpl_descriptors_and_payload_sizes_unchanged": true,
+  "executable_and_caption_pack_identical": true,
+  "captions_unchanged": 95,
+  "original_movies_audio_byte_identical": true,
+  "original_media_files": 102,
+  "models_uv_disc_layout_identical": true,
+  "unexpected_resource_changes": 0
+}
