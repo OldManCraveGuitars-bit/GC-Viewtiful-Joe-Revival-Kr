@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "version": "0.921",
+  "source_sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480",
+  "target_sha256": "8b5a92fbaedfce8ee719809584d548600bdd1b114908ad118305476a42afde84",
+  "target_size": 1459978240,
+  "output": "v0921-frozen-verify.iso",
+  "verify_only": false,
+  "output_verified_from_disk": true,
+  "sidecar_status": "created",
+  "source_overwritten": false,
+  "revision": "v0.921"
+}

@@ -1,0 +1,48 @@
+{
+  "version": "0.921",
+  "title_hero": "docs/images/v0.921/title.png",
+  "captures": [
+    {
+      "file": "docs/images/v0.921/title.png",
+      "sha256": "6b49fd9fd4b70541241a79451ef05a21f33f097730904becba81bec2925c4a13",
+      "captured_version": "v0.92",
+      "iso_sha256": "d6ad7ef4d79d0d33f45a1bf01ae77d67ba2e81ba535ab9f34585eaeefaf02c62",
+      "role": "Retained title hero; all 312 game resource contents and offsets are identical in v0.921.",
+      "hardware_tested": false
+    },
+    {
+      "file": "docs/images/v0.921/opening-050.png",
+      "sha256": "1bebb1cc822830fa0ad12b970b8b2168de4571bf33964dc4decab69f21fc41e3",
+      "captured_version": "verified 0.92-audio-test; game bytes identical to v0.921",
+      "iso_sha256": "8b5a92fbaedfce8ee719809584d548600bdd1b114908ad118305476a42afde84",
+      "dsp_audio_seconds": 50.004,
+      "frame_source": "Stable previous completed normal GX XFB; emulator memory read",
+      "accurate_cpu_cache": true,
+      "dsp_lle": true,
+      "hardware_tested": false
+    },
+    {
+      "file": "docs/images/v0.921/opening-080.png",
+      "sha256": "5508348be757a5efb5b11877057c658f9a2e033a497b9d2b291eab7b91ea4b5f",
+      "captured_version": "verified 0.92-audio-test; game bytes identical to v0.921",
+      "iso_sha256": "8b5a92fbaedfce8ee719809584d548600bdd1b114908ad118305476a42afde84",
+      "dsp_audio_seconds": 80.026,
+      "frame_source": "Stable previous completed normal GX XFB; emulator memory read",
+      "accurate_cpu_cache": true,
+      "dsp_lle": true,
+      "hardware_tested": false
+    },
+    {
+      "file": "docs/images/v0.921/opening-120.png",
+      "sha256": "c190557c4bee61c3816ea4fa31c754933d91430082aebb464959f9d921ea6748",
+      "captured_version": "verified 0.92-audio-test; game bytes identical to v0.921",
+      "iso_sha256": "8b5a92fbaedfce8ee719809584d548600bdd1b114908ad118305476a42afde84",
+      "dsp_audio_seconds": 120.023,
+      "frame_source": "Stable previous completed normal GX XFB; emulator memory read",
+      "accurate_cpu_cache": true,
+      "dsp_lle": true,
+      "hardware_tested": false
+    }
+  ],
+  "retained_title_capture_provenance_preserved": true
+}

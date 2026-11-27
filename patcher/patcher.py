@@ -17,8 +17,8 @@ import threading
 import time
 import xml.etree.ElementTree as ET
 
-VERSION = '0.92'
-REVISION = 'v0.92'
+VERSION = '0.921'
+REVISION = 'v0.921'
 BLOCK = 1024 * 1024
 
 
@@ -238,7 +238,7 @@ def make_gui():
     class Window(tk.Tk):
         def __init__(self):
             super().__init__()
-            self.title('뷰티풀죠 리바이벌 · 한국어 패처 v0.92')
+            self.title('뷰티풀죠 리바이벌 · 한국어 패처 v0.921')
             self.geometry('820x650')
             self.minsize(760, 620)
             self.source = tk.StringVar()
@@ -260,7 +260,7 @@ def make_gui():
             intro = ttk.Frame(top)
             intro.pack(side='left', fill='both', expand=True)
             ttk.Label(intro, text='뷰티풀죠 리바이벌', font=('맑은 고딕', 19, 'bold')).pack(anchor='w', pady=(10, 4))
-            ttk.Label(intro, text='GameCube 한국어 패치  v0.92', font=('맑은 고딕', 12)).pack(anchor='w')
+            ttk.Label(intro, text='GameCube 한국어 패치  v0.921', font=('맑은 고딕', 12)).pack(anchor='w')
             ttk.Label(intro, text='일본판 GVFJ08 전용\n\n원본 확인 → 패치 적용 → 완성 파일 검사\n\nRVZ는 먼저 돌핀에서 ISO로 변환하세요.',
                       justify='left', wraplength=385).pack(anchor='w', pady=15)
             ttk.Label(intro, text='한글화 기타 깍는 노인').pack(anchor='w')
@@ -298,11 +298,11 @@ def make_gui():
             if path:
                 self.source.set(path)
                 if not self.output.get():
-                    self.output.set(str(Path(path).parent / 'Viewtiful-Joe-Revival-Kr-v0.92.iso'))
+                    self.output.set(str(Path(path).parent / 'Viewtiful-Joe-Revival-Kr-v0.921.iso'))
 
         def choose_output(self):
             path = filedialog.asksaveasfilename(title='새 ISO 저장 위치', defaultextension='.iso',
-                                               initialfile='Viewtiful-Joe-Revival-Kr-v0.92.iso', filetypes=[('ISO', '*.iso')])
+                                               initialfile='Viewtiful-Joe-Revival-Kr-v0.921.iso', filetypes=[('ISO', '*.iso')])
             if path:
                 self.output.set(path)
 
@@ -384,7 +384,7 @@ def make_gui():
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Viewtiful Joe Revival Korean patcher v0.92')
+    parser = argparse.ArgumentParser(description='Viewtiful Joe Revival Korean patcher v0.921')
     parser.add_argument('--source', type=Path)
     parser.add_argument('--output', type=Path)
     parser.add_argument('--verify-only', action='store_true')
