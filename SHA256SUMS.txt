@@ -1,7 +1,7 @@
-b88af6c806fbb85d0686f63b7bd08855aa34adc4a678829e61469c0a6631f935  expected-image-hashes.txt
-7d3af20756e438fff81bbbeef3ad286302afec307ec550ee210f9a37fa13002c  GC-Viewtiful-Joe-Revival-Kr-v0.9-screenshots.zip
-fb8df35d859322df3583a7e3fd1937d3db127cf002c87daa79b898823bdc5c69  GC-Viewtiful-Joe-Revival-Kr-v0.9.xdelta
-be4cfbf1b1d1e2d8fbada8c0a4b0c1b7de0457a44d3340f5e1b16b05b4b8333b  GC-Viewtiful-Joe-Revival-Kr-v0.9.zip
-bf58aa8d3be0d75f95fb622ac58b80443aa6798794b3731a7476d894dbf724a3  README-KR.txt
-ddd928b0d1a6b9a7e2a31c6368b348666d40918615ace5a4f305795461a8c28b  Viewtiful-Joe-Revival-Kr-Patcher-v0.9.exe
-1564cdbdaf8a2d3c872466f5dcff659be4ec03a3b1f56912139b7e233f51a6f6  Viewtiful-Joe-Revival-Kr-v0.9.xml
+807a87eb5d11a5843d5bd15f108c37126b2cf1bb66dd7c3533efefdb1b4fbfd1  expected-image-hashes.txt
+36357638096296c8bdc47a7bb32f328c4f1cb76deb7cadbc6d8b2bb37f0e6854  GC-Viewtiful-Joe-Revival-Kr-v0.901-screenshots.zip
+e5b37834462d776a8251243636efa54aa65753e02e50972054c7631c514a09a3  GC-Viewtiful-Joe-Revival-Kr-v0.901.xdelta
+d58cc4e93e854282bc0729563c57436c4308428432e0d3126c5d8646c2c9de7f  GC-Viewtiful-Joe-Revival-Kr-v0.901.zip
+e1d1ef7b441dfc11d7815de403dd075079b9aa0364eb5509fe03269a2b51c3f0  README-KR.txt
+35f8b46335dd47141665b3af21acc55d3f6fb3513de6c6fb3d221ac04f088c78  Viewtiful-Joe-Revival-Kr-Patcher-v0.901.exe
+1564cdbdaf8a2d3c872466f5dcff659be4ec03a3b1f56912139b7e233f51a6f6  Viewtiful-Joe-Revival-Kr-v0.901.xml

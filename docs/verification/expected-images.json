@@ -1,6 +1,6 @@
 {
   "game_id": "GVFJ08",
-  "version": "0.9",
+  "version": "0.901",
   "source_iso": {
     "size": 1459978240,
     "sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480",
@@ -8,12 +8,12 @@
     "disc_id": "GVFJ08"
   },
   "patched_iso": {
-    "name": "Viewtiful-Joe-Revival-Kr-v0.9.iso",
+    "name": "Viewtiful-Joe-Revival-Kr-v0.901.iso",
     "size": 1459978240,
-    "sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    "sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018"
   },
   "native_caption_cues": 95,
   "video_reencoded": false,
   "hardware_tested": false,
-  "hardware_test_waived_by_user": true
+  "hardware_fix_confirmed": false
 }

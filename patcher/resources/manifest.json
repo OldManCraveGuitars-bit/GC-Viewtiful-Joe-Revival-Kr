@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "0.9",
+  "version": "0.901",
   "game_id": "GVFJ08",
   "title": "뷰티풀죠 리바이벌",
   "source": {
@@ -10,14 +10,14 @@
     "disc_id": "GVFJ08"
   },
   "target": {
-    "name": "Viewtiful-Joe-Revival-Kr-v0.9.iso",
+    "name": "Viewtiful-Joe-Revival-Kr-v0.901.iso",
     "size": 1459978240,
-    "sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981"
+    "sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018"
   },
   "patch": {
     "name": "patch.xdelta",
-    "size": 3837261,
-    "sha256": "fb8df35d859322df3583a7e3fd1937d3db127cf002c87daa79b898823bdc5c69"
+    "size": 4853074,
+    "sha256": "e5b37834462d776a8251243636efa54aa65753e02e50972054c7631c514a09a3"
   },
   "decoder": {
     "name": "xdelta3.exe",
@@ -29,9 +29,10 @@
     "size": 194,
     "sha256": "1564cdbdaf8a2d3c872466f5dcff659be4ec03a3b1f56912139b7e233f51a6f6"
   },
-  "revision": "v0.9",
-  "display_revision": "v0.9",
+  "revision": "v0.901",
+  "display_revision": "v0.901",
   "approved_assets": 1443,
   "native_texture_occurrences_replaced": 4206,
-  "native_subtitle_cues": 95
+  "native_subtitle_cues": 95,
+  "hardware_fix_confirmed": false
 }

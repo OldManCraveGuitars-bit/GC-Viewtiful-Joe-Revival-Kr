@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "tests_run": 44,
+  "failures": 0,
+  "errors": 1,
+  "patterns": [
+    "test_hardware_layout.py",
+    "test_media_integrity.py",
+    "test_native.py",
+    "test_system_font.py",
+    "test_native_subtitles.py"
+  ]
+}

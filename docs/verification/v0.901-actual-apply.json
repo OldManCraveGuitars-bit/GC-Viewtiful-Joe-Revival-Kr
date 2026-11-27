@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "version": "0.901",
+  "source_sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480",
+  "target_sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018",
+  "target_size": 1459978240,
+  "output": "qa-v0901-frozen.iso",
+  "verify_only": false,
+  "output_verified_from_disk": true,
+  "sidecar_status": "created",
+  "source_overwritten": false,
+  "revision": "v0.901"
+}

@@ -1,0 +1,41 @@
+{
+  "version": "0.901",
+  "captures": [
+    {
+      "file": "docs/images/v0.901/opening-caption-1.png",
+      "sha256": "5285c4fb9c885d6d75a8df897b007176a675398eb053e22c4f93dfd84fd93a3b",
+      "iso_sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018",
+      "source": "native XFB emulator capture",
+      "hardware_tested": false
+    },
+    {
+      "file": "docs/images/v0.901/opening-caption-2.png",
+      "sha256": "b8ac13b8c2cb4ccff140fb58166533db5d1dcfedf50a7226a1efb4c46e8d9f44",
+      "iso_sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018",
+      "source": "native XFB emulator capture",
+      "hardware_tested": false
+    },
+    {
+      "file": "docs/images/v0.901/first-story-blue.png",
+      "sha256": "e57e8d4094c46bcad546c68abfedcb8cc25026745e45ddf085c43464770f4da8",
+      "iso_sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018",
+      "source": "native XFB emulator capture",
+      "hardware_tested": false
+    },
+    {
+      "file": "docs/images/v0.901/first-story-joe.png",
+      "sha256": "148f2a251d4a07c67edbbd933e6b1c6f1a801ccc46b2a55fce629351cdb56c92",
+      "iso_sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018",
+      "source": "native XFB emulator capture",
+      "hardware_tested": false
+    },
+    {
+      "file": "docs/images/v0.901/after-opening.png",
+      "sha256": "bebfcb8479f97417f599e15c6a0953b19bec19c1103f2dca9138d94b10add173",
+      "iso_sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018",
+      "source": "native XFB emulator capture",
+      "hardware_tested": false
+    }
+  ],
+  "older_gallery_provenance": "screenshots.json"
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "tests_run": 4,
+  "failures": 0,
+  "errors": 0,
+  "fixture_correction": "Movie authoring clip_id must be zero; playback aliases are assigned by compiler"
+}

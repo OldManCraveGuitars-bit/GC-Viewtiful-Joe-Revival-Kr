@@ -1,0 +1,63 @@
+{
+  "version": "0.901",
+  "original_iso_sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480",
+  "target_iso_sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018",
+  "patch_sha256": "e5b37834462d776a8251243636efa54aa65753e02e50972054c7631c514a09a3",
+  "exe_sha256": "35f8b46335dd47141665b3af21acc55d3f6fb3513de6c6fb3d221ac04f088c78",
+  "hardware_fix_confirmed": false,
+  "hardware_tested": false,
+  "reported_scene_and_loader_unknown": true,
+  "reported_freeze_reproduced": false,
+  "format_and_layout": {
+    "passed": true,
+    "baseline_iso_sha256": "eb4bfed2f65f60b751039beef9705557400b69f85d9c05c3617710d52030e981",
+    "candidate_iso_sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018",
+    "candidate": "Viewtiful-Joe-Revival-Kr-v0.901.iso",
+    "original_iso_sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480",
+    "resources_compared_to_v09": 312,
+    "every_game_resource_byte_identical_to_v09": true,
+    "original_media_compared": 102,
+    "all_original_media_contents_and_offsets_preserved": true,
+    "all_dol_sections_32byte_aligned": true,
+    "added_zero_padding": 25,
+    "arena_guard_in_text_section": true,
+    "renderer_font_and_subtitle_instruction_and_data_bytes_identical": true,
+    "captions_disabled": false,
+    "original_disc_file_offsets_preserved": 311,
+    "relocated_files": [
+      {
+        "path": "data/title00.dat",
+        "original_offset": 1090486272,
+        "offset": 3244032,
+        "size": 4375424
+      }
+    ],
+    "physical_hardware_tested": false,
+    "reported_freeze_causality_confirmed": false
+  },
+  "core_regression_tests": {
+    "passed": true,
+    "unique_tests": 44,
+    "tests_run": 44,
+    "failures": 0,
+    "errors": 0,
+    "execution": "43 passing existing cases retained; the four hardware-layout cases rerun after correcting their movie fixture",
+    "evidence": [
+      "hardware-tests-initial.json",
+      "hardware-tests-rerun.json"
+    ]
+  },
+  "patcher_regression_tests": 11,
+  "accurate_cpu_cache_movie_frames_per_version": 1100,
+  "accurate_cpu_cache_comparison_versions": [
+    "v0.9",
+    "v0.901"
+  ],
+  "full_natural_opening_source_frames": 2432,
+  "full_natural_opening_returned_to_normal_renderer": true,
+  "full_opening_accurate_cpu_cache": false,
+  "first_story_native_frame_polls": 3749,
+  "actual_frozen_iso_application_and_disk_hash_verified": true,
+  "original_video_audio_reencoded": false,
+  "source_reference": "https://github.com/dolphin-emu/dolphin/blob/master/Source/Core/Core/Boot/DolReader.cpp"
+}
