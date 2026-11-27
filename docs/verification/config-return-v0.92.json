@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "baseline_version": "0.901",
+  "baseline_iso_sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018",
+  "candidate_iso_sha256": "d6ad7ef4d79d0d33f45a1bf01ae77d67ba2e81ba535ab9f34585eaeefaf02c62",
+  "game_resources_byte_identical_and_at_identical_offsets": 312,
+  "original_media_byte_and_offset_unchanged": 102,
+  "original_runtime_byte_changes": [
+    "0x8011be50",
+    "0x8011be51",
+    "0x8011be52",
+    "0x8011be53"
+  ],
+  "added_helper_bytes": 64,
+  "helper_text_address": "0x8034ae20",
+  "original_guard_bytes_identical": true,
+  "all_other_instruction_font_and_caption_bytes_identical": true,
+  "all_dol_sections_32byte_aligned": true,
+  "media_reencoded": false,
+  "hardware_tested": false,
+  "version": "0.92",
+  "config_return_cycles": 3,
+  "main_menu_return_verified": true,
+  "original_japanese_comparison_verified": true,
+  "core_tests": 44,
+  "patcher_tests": 11,
+  "actual_frozen_iso_application_verified": true,
+  "game_iso_identical_to_local_v0902": true,
+  "hardware_freeze_resolution_confirmed": false
+}

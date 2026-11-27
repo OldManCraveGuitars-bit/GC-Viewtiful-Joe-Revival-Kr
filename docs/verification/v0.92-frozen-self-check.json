@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "version": "0.92",
+  "frozen": true,
+  "game_id": "GVFJ08",
+  "source_sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480",
+  "target_sha256": "d6ad7ef4d79d0d33f45a1bf01ae77d67ba2e81ba535ab9f34585eaeefaf02c62",
+  "resources_verified": true,
+  "revision": "v0.92"
+}

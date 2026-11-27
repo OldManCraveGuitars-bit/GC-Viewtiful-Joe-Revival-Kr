@@ -1,59 +1,60 @@
-# 뷰티풀죠 리바이벌 게임큐브 한국어 패치 v0.901
+# 뷰티풀죠 리바이벌 게임큐브 한국어 패치 v0.92
 
-![한국어 타이틀 화면](docs/images/title.png)
+![한국어 타이틀 화면](docs/images/v0.92/title.png)
 
-일본판 **GameCube / GVFJ08**용 한국어 패치 **v0.901**입니다. v0.9의 실기 오프닝 멈춤 제보에 대응해 실행 파일 구조와 디스크 배치를 보완했습니다.
+일본판 **GameCube / GVFJ08**용 한국어 패치 **v0.92**입니다. CONFIG에 들어갔다 돌아오면 C가 오른쪽으로 밀리고 ‘설정’이 사라지던 문제를 수정했습니다.
 
-- 추가 DOL 실행 영역을 **32바이트 정렬**하고 끝의 누락 패딩 **25바이트**를 채웠습니다.
-- 메모리 예약용 실행 코드를 **TEXT 구역**으로 분리했습니다.
-- 원본 파일 **312개 중 311개 위치**를 유지하며, 확장된 타이틀 자원 한 개만 빈 공간으로 옮겼습니다. 원본 영상·음성 **102개의 내용과 디스크 위치**가 원본과 같습니다.
-- v0.9의 한글 게임 자원 **312개**, 자막·글꼴·렌더러 코드와 데이터는 그대로 유지했습니다. 이미지 **1,443종·4,206곳**, 네이티브 자막 **95개**를 포함합니다.
+- 짧아진 한글 메뉴 뒤에 이전 화면의 글자 포인터가 남아 같은 글자를 두 번 이동시키던 원인을 제거했습니다.
+- **CONFIG 진입·복귀 3회**, 글자 수·중복 포인터·좌표 복원과 메인 메뉴 복귀를 에뮬레이터에서 확인했습니다. 원본 일본판과 v0.901도 같은 순서로 대조했습니다.
+- 관련 검사 **44개**와 패처 검사 **11개**, 완성 v0.92 EXE의 원본 ISO 실제 적용·저장 결과 해시 대조를 통과했습니다.
+- 원래 메뉴 효과·글꼴·디자인과 기존 한글화를 유지합니다. 게임 자원 **312개의 내용과 위치**는 v0.901과 같습니다. 이미지 **1,443종·4,206곳**, 네이티브 자막 **95개**를 포함합니다.
+- v0.901의 DOL 정렬·코드 구역 분리·원본 디스크 배치 보완을 유지합니다. 영상·음성 **102개의 내용과 위치**는 원본과 같습니다. 영상 재인코딩은 없습니다.
 
-관련 검사 **44개**와 패처 검사 **11개**, 원본 ISO에 완성 EXE를 실제 적용한 뒤 저장 결과 해시 대조를 통과했습니다. 오프닝 **2,432프레임** 전체를 건너뛰지 않고 재생해 종료 후 게임 렌더링 복귀를 확인했고, 새 게임의 첫 대사 장면까지 확인했습니다. 별도로 CPU 캐시 정확도를 켜고 v0.9와 v0.901 각각 오프닝 **1,100프레임**을 비교했습니다.
-
-**실기 프리징 해소는 아직 확인되지 않았습니다.** 제보의 정확한 장면과 구동 환경은 알려지지 않았고, 에뮬레이터에서 같은 멈춤을 재현하지 못했습니다. 이번판은 확인한 구조상 위험을 줄인 호환성 보완판입니다. 영상·음성 재인코딩은 없습니다.
+**이전 실기 오프닝 프리징 제보의 실기 해소 여부는 여전히 미확인**입니다. 이번 검수는 에뮬레이터에서 원래 입력 처리 지점에 QA용 버튼 에지를 공급해 수행했으며, 실기·물리 컨트롤러 검증으로 표시하지 않습니다.
 
 ## 적용 방법
 
-1. [EXE 패처](https://github.com/OldManCraveGuitars-bit/GC-Viewtiful-Joe-Revival-Kr/releases/download/v0.901/Viewtiful-Joe-Revival-Kr-Patcher-v0.901.exe)를 실행합니다. 필요한 파일이 EXE 하나에 포함되어 있습니다.
-2. 수정되지 않은 **일본판 원본 ISO/GCM**과 새 저장 위치를 선택합니다. RVZ는 돌핀에서 먼저 ISO로 변환합니다.
-3. 원본 확인·적용·저장된 결과의 SHA-256 대조가 끝날 때까지 기다립니다. 기존 한글 롬에는 덧씌우지 않습니다.
+1. [EXE 패처](https://github.com/OldManCraveGuitars-bit/GC-Viewtiful-Joe-Revival-Kr/releases/download/v0.92/Viewtiful-Joe-Revival-Kr-Patcher-v0.92.exe)를 실행합니다. 필요한 파일이 EXE 하나에 포함되어 있습니다.
+2. 수정되지 않은 **일본판 원본 ISO/GCM**과 새 저장 위치를 선택합니다. RVZ는 먼저 돌핀에서 ISO로 변환합니다.
+3. 원본 확인·패치 적용·저장된 결과의 SHA-256 대조가 끝날 때까지 기다립니다. 기존 한글 롬에 덧씌우지 않습니다.
 
-[배포 ZIP](https://github.com/OldManCraveGuitars-bit/GC-Viewtiful-Joe-Revival-Kr/releases/download/v0.901/GC-Viewtiful-Joe-Revival-Kr-v0.901.zip) · [Xdelta](https://github.com/OldManCraveGuitars-bit/GC-Viewtiful-Joe-Revival-Kr/releases/download/v0.901/GC-Viewtiful-Joe-Revival-Kr-v0.901.xdelta) · [스크린샷](https://github.com/OldManCraveGuitars-bit/GC-Viewtiful-Joe-Revival-Kr/releases/download/v0.901/GC-Viewtiful-Joe-Revival-Kr-v0.901-screenshots.zip) · [SHA-256 목록](https://github.com/OldManCraveGuitars-bit/GC-Viewtiful-Joe-Revival-Kr/releases/download/v0.901/SHA256SUMS.txt)
+[배포 ZIP](https://github.com/OldManCraveGuitars-bit/GC-Viewtiful-Joe-Revival-Kr/releases/download/v0.92/GC-Viewtiful-Joe-Revival-Kr-v0.92.zip) · [Xdelta](https://github.com/OldManCraveGuitars-bit/GC-Viewtiful-Joe-Revival-Kr/releases/download/v0.92/GC-Viewtiful-Joe-Revival-Kr-v0.92.xdelta) · [스크린샷](https://github.com/OldManCraveGuitars-bit/GC-Viewtiful-Joe-Revival-Kr/releases/download/v0.92/GC-Viewtiful-Joe-Revival-Kr-v0.92-screenshots.zip) · [SHA-256 목록](https://github.com/OldManCraveGuitars-bit/GC-Viewtiful-Joe-Revival-Kr/releases/download/v0.92/SHA256SUMS.txt)
 
 ## SHA-256
 
 | 파일 | SHA-256 |
 | --- | --- |
 | 원본 ISO | `2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480` |
-| 완성 ISO | `9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018` |
-| Xdelta | `e5b37834462d776a8251243636efa54aa65753e02e50972054c7631c514a09a3` |
-| EXE 패처 | `35f8b46335dd47141665b3af21acc55d3f6fb3513de6c6fb3d221ac04f088c78` |
+| 완성 ISO | `d6ad7ef4d79d0d33f45a1bf01ae77d67ba2e81ba535ab9f34585eaeefaf02c62` |
+| Xdelta | `8131948de7315e7439cc9390cc4edbfd538a137d4ea209633b6c6391d457a4a8` |
+| EXE 패처 | `6b6d5722082e6803cc3824937438813dd621771f419c256f506b4aaa5f3de2c5` |
 
-## 검수 이미지
+## CONFIG 복귀 전후
 
-다음 네 장면은 v0.901의 실제 게임 XFB를 에뮬레이터에서 캡처했습니다. 실기 캡처가 아닙니다.
+v0.901 수정 전 — C가 오른쪽으로 밀리고 ‘설정’이 사라졌습니다.
 
-![오프닝 자막 1](docs/images/v0.901/opening-caption-1.png)
+![수정 전](docs/images/v0.92/config-before.png)
 
-![오프닝 자막 2](docs/images/v0.901/opening-caption-2.png)
+v0.92 수정 후 — 세 번째 CONFIG 복귀에서도 글자 위치가 유지됩니다.
 
-![첫 이야기 장면](docs/images/v0.901/first-story-blue.png)
+![수정 후](docs/images/v0.92/config-after.png)
 
-![죠 대사](docs/images/v0.901/first-story-joe.png)
+원본 일본판 비교:
 
-### 기존 이미지 한글화
+![일본판](docs/images/v0.92/japanese-reference.png)
 
-간판·종이 그림은 v0.9와 같습니다. 아래는 디스크 텍스처 미리보기입니다.
+## 기존 이미지 한글화
 
-![차이나타운 간판](docs/native-previews/files_data_st010.dat_0000fc60_004.png)
+다음은 유지한 간판·종이의 디스크 텍스처 미리보기입니다.
+
+![간판](docs/native-previews/files_data_st010.dat_0000fc60_004.png)
 
 ![죠의 종이](docs/native-previews/files_data_st012.dat_003df6e0_000.png)
 
 ## 검증 자료와 라이선스
 
-[호환성 검수 결과](docs/verification/hardware-v0.901.json) · [이번 캡처의 ISO 해시](docs/verification/v0.901-screenshots.json) · [실제 EXE 적용 결과](docs/verification/v0.901-actual-apply.json)
+[메뉴 복귀 검수](docs/verification/config-return-v0.92.json) · [이번 캡처의 ISO 해시](docs/verification/v0.92-screenshots.json) · [완성 EXE 실제 적용](docs/verification/v0.92-actual-apply.json)
 
-타이틀 대표 이미지는 기존 촬영본이며, 해당 타이틀 자원은 v0.9에서 바뀌지 않았습니다. 기존 캡처의 촬영판과 해시는 `docs/verification/screenshots.json`에 보존했습니다. 저해상도 장식 문구의 장면에 맞는 재디자인 등 기존 한글화 범위와 예외도 유지합니다.
+대표 타이틀과 이번 전후 이미지는 실제 게임 XFB의 에뮬레이터 캡처입니다. 이전 캡처와 검수 자료는 원래 버전·해시 기록을 유지했습니다. 원문을 판독할 수 없는 저해상도 장식 문구를 장면에 맞게 재디자인한 기존 한글화 범위와 예외도 유지합니다.
 
-원본 ROM은 포함하지 않습니다. 패처 코드는 `LICENSE-PATCHER.md`, 내장 Xdelta는 `third_party`의 라이선스를 따릅니다. v0.8·v0.9의 태그와 배포 파일은 보존합니다.
+원본 ROM은 포함하지 않습니다. 패처 코드는 `LICENSE-PATCHER.md`, 내장 Xdelta는 `third_party`의 라이선스를 따릅니다. 기존 v0.8·v0.9·v0.901 태그와 배포 파일은 보존합니다.

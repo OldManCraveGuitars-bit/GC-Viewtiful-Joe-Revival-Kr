@@ -1,0 +1,36 @@
+{
+  "version": "0.92",
+  "captures": [
+    {
+      "file": "docs/images/v0.92/config-after.png",
+      "sha256": "d214e0fe0dd7beff74babc62891be7ddb97755b99d01af1f0dbfe3740fbccff0",
+      "iso_sha256": "d6ad7ef4d79d0d33f45a1bf01ae77d67ba2e81ba535ab9f34585eaeefaf02c62",
+      "captured_version": "verified local 0.902; identical game bytes to 0.92",
+      "hardware_tested": false
+    },
+    {
+      "file": "docs/images/v0.92/config-before.png",
+      "sha256": "2da21fa2889fd6bd84e16d80336c06910dd9e0443c0d35540fe20263023a4e98",
+      "iso_sha256": "9fbd3539731329243c1db3a58bda280289f2a23a2ebca37a8bf4f8d7f49c6018",
+      "captured_version": "0.901",
+      "hardware_tested": false
+    },
+    {
+      "file": "docs/images/v0.92/japanese-reference.png",
+      "sha256": "2db9530133d8f245f9ced2d2c31c7e0f8203e9c45ec6f21361fe2e05296491f8",
+      "iso_sha256": "2b4dd8b25cf810a92bfdb153cd1632fd7229892b1cfd92ac97ec8498c6bdf480",
+      "captured_version": "Japanese original",
+      "hardware_tested": false
+    },
+    {
+      "file": "docs/images/v0.92/title.png",
+      "sha256": "6b49fd9fd4b70541241a79451ef05a21f33f097730904becba81bec2925c4a13",
+      "iso_sha256": "d6ad7ef4d79d0d33f45a1bf01ae77d67ba2e81ba535ab9f34585eaeefaf02c62",
+      "captured_version": "verified local 0.902; identical game bytes to 0.92",
+      "hardware_tested": false
+    }
+  ],
+  "title_hero": "docs/images/v0.92/title.png",
+  "emulator_native_xfb": true,
+  "qa_only_input_edges": true
+}
